@@ -46,7 +46,7 @@ function Home() {
   }
 
   return (
-    <LoadScript googleMapsApiKey="YOUR_API_KEY" libraries={libraries}>
+    <LoadScript googleMapsApiKey="AIzaSyCex8Pqq72iU6u4xQMyuJnhIRRUd45kB-A" libraries={libraries}>
       <div className="App flex flex-col justify-center items-center bg-darkBlue">
         <h1 className='capitalize mb-20 font-bold text-white text-2xl'>Find beauty services in your city!</h1>
         <form onSubmit={handleFormSubmit}>
